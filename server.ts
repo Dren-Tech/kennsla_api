@@ -1,0 +1,1 @@
+console.log('Start Kennsla service content-service');
