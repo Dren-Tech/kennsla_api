@@ -9,6 +9,8 @@
   "author": "Marian Hahne",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
+    "roboter": "12.0.0",
+    "ts-node": "10.1.0",
     "typescript": "4.3.5"
   }
 }
