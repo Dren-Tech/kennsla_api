@@ -27,6 +27,7 @@
     "nodemon": "2.0.12"
   },
   "scripts": {
+    "dev": "npx nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
