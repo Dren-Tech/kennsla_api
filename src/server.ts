@@ -5,7 +5,7 @@ import { flaschenpost, getMiddleware } from 'flaschenpost';
 
 const logger = flaschenpost.getLogger();
 
-logger.info('Booting content service...');
+logger.info('Booting API...');
 
 const app = express();
 const port = 8_080;
@@ -43,7 +43,7 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true
 }));
 
-logger.info('Start content service of Kennlsa');
+logger.info('Start API of Kennlsa');
 
 // Start server
 app.listen(port, (): void => {
