@@ -32,4 +32,4 @@ jobs:
         npm install
     - name: Run roboter
       run: |
-        npm run roboter
+        npx roboter
