@@ -7,13 +7,25 @@ describe('Student', (): void => {
     const student = new Student('username');
 
     assert.that(student).is.not.null();
+    assert.that(student).is.instanceOf(Student);
   });
 
-  it('Test test.', async (): Promise<void> => {
-    assert.that(true).is.true();
-  });
+  it('can get and set propertoes.', async (): Promise<void> => {
+    // Arrange
+    const username = 'username';
+    const firstname = 'Firstname';
+    const lastname = 'Lastname';
 
-  it('asd.', async (): Promise<void> => {
-    assert.that(false).is.false();
+    const student = new Student();
+
+    // Act
+    student.username = username;
+    student.firstname = firstname;
+    student.lastname = lastname;
+
+    // Assert
+    assert.that(student.username).is.equalTo(username);
+    assert.that(student.firstname).is.equalTo(firstname);
+    assert.that(student.lastname).is.equalTo(lastname);
   });
 });

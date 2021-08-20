@@ -37,7 +37,7 @@
     },
     "scripts": {
         "dev": "npx nodemon src/server.ts",
-        "test": "npx mocha --recursive --require ts-node/register --extension ts"
+        "test": "npx mocha --recursive --require ts-node/register --extension ts --parallel"
     },
     "repository": {
         "type": "git",
