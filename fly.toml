@@ -1,16 +1,11 @@
-# fly.toml file generated for hidden-voice-3352 on 2021-08-19T16:41:45+02:00
+# fly.toml file generated for kennsla-api on 2021-08-20T12:31:02+02:00
 
-app = "kennsla_api_dev"
+app = "kennsla-api"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
 
-[build]
-  builder = "heroku/buildpacks:20"
-  buildpacks = ["gcr.io/paketo-buildpacks/nodejs"]
-
 [env]
-  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
