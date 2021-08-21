@@ -1,3 +1,7 @@
 {
-    "extends": "es/node"
+    "extends": "es/node",
+
+    "rules": {
+        "new-cap": ["error", { "capIsNew": false }]
+    }
 }
