@@ -26,7 +26,7 @@
     "reflect-metadata": "0.1.13",
     "roboter": "12.1.0",
     "ts-node": "10.2.1",
-    "typeorm": "0.2.37",
+    "typeorm": "0.3.4",
     "typescript": "4.3.5"
   },
   "devDependencies": {
